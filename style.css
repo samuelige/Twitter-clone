@@ -1,6 +1,5 @@
 body {
   height: 100vh;
-  /* width: 100%; */
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -25,14 +24,6 @@ body {
 }
 
 .firstSection > .backgroundLogo-image {
-  /* position: relative;
-  z-index: 3;
-  width: 164%;
-  top: -33%;
-  left: -4%; */
-
-  /*  */
-
   position: relative;
   z-index: 3;
   width: 164%;
@@ -45,17 +36,9 @@ body {
 }
 
 .firstSection > .iconsAndTexts {
-  /* position: relative;
-  z-index: 5;
-  top: -145%;
-  color: #fff; */
-
-  /*  */
-
   position: relative;
   z-index: 5;
   margin-top: -103%;
-  /* top: -145%; */
   color: #fff;
 }
 .searchSVG,
@@ -112,7 +95,6 @@ body {
 .sign-up,
 .log-in {
   border: 1px solid rgb(29, 161, 242);
-  /* border-width: 1px; */
   width: 100%;
   padding: 2% 0px 2% 0px;
   outline: none;
@@ -148,7 +130,6 @@ body {
   font-size: 14px;
   background-color: rgb(21, 32, 43);
   color: #fff;
-  /* height: 6vh; */
   padding: 1.5% 0px 2% 0px;
   overflow: hidden;
 }
@@ -177,30 +158,8 @@ body {
   width: 100%;
 }
 
-/* .accountButtons > .sign-up,
-.accountButtons > .log-in {
-  flex: 1.5;
-} */
-.login-form,
 .accountButtons {
   display: none;
-}
-
-/* 
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
-*/
-@media (min-width: 1281px) {
-  /* CSS */
-}
-
-/* 
-  ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  /* CSS */
 }
 
 /* Mobile View */
@@ -218,22 +177,6 @@ body {
   }
 
   .firstSection > .backgroundLogo-image {
-    /* position: relative;
-    z-index: 3;
-    width: 140%;
-    top: -12%;
-    left: -1%; */
-
-    /*  */
-
-    /* position: relative;
-    z-index: 3;
-    width: 120%;
-    margin-top: -25%;
-    left: -1%; */
-
-    /*  */
-
     position: relative;
     z-index: 3;
     width: 120%;
@@ -242,22 +185,6 @@ body {
   }
 
   .firstSection > .iconsAndTexts {
-    /* position: relative;
-    z-index: 5;
-    top: -61%;
-    color: #fff;
-    left: -17%; */
-
-    /*  */
-
-    /* position: relative;
-    z-index: 5;
-    margin-top: -90%;
-    color: #fff;
-    left: -19%; */
-
-    /*  */
-
     position: relative;
     z-index: 5;
     margin-top: -90%;
@@ -289,7 +216,6 @@ body {
   .signUp,
   .logIn {
     border: 1px solid rgb(29, 161, 242);
-    /* border-width: 1px; */
     width: 100%;
     outline: none;
     border-radius: 45px;
